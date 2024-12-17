@@ -1,13 +1,14 @@
-# [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
+# [GitHub Stats Visualization](https://github.com/anishkumar127/github-stats-readme)
 
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
-<a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
+
+<a href="https://github.com/anishkumar127/github-stats-readme">
+<img src="https://github.com/anishkumar127/github-stats-readme/blob/main/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/anishkumar127/github-stats-readme/blob/main/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/anishkumar127/github-stats-readme/blob/main/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/anishkumar127/github-stats-readme/blob/main/generated/languages.svg#gh-light-mode-only" />
 </a>
 
 Generate visualizations of GitHub user and repository statistics with GitHub
@@ -56,9 +57,9 @@ last contributed to more than a year ago may not be included in the statistics
 due to limitations in the results returned by the API.
 
 For more information on inaccuracies, see issue
-[#2](https://github.com/jstrieb/github-stats/issues/2),
-[#3](https://github.com/jstrieb/github-stats/issues/3), and
-[#13](https://github.com/jstrieb/github-stats/issues/13).
+[#2](),
+[#3](), and
+[#13]().
 
 # Installation
 
@@ -72,9 +73,9 @@ For more information on inaccuracies, see issue
    regenerate the token.
    - Some users are reporting that it can take a few minutes for the personal
      access token to work. For more, see 
-     [#30](https://github.com/jstrieb/github-stats/issues/30).
+     [#30]().
 2. Create a copy of this repository by clicking
-   [here](https://github.com/jstrieb/github-stats/generate). Note: this is
+   [here](https://github.com/anishkumar127/github-stats-readme/generate). Note: this is
    **not** the same as forking a copy because it copies everything fresh,
    without the huge commit history. 
 3. Go to the "Secrets" page of your copy of the repository. If this is the
@@ -93,13 +94,12 @@ For more information on inaccuracies, see issue
      could set the value to `html,tex`.
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
-     [main
-     workflow](https://github.com/jstrieb/github-stats/blob/master/.github/workflows/main.yml))
+     [main workflow](https://github.com/anishkumar127/github-stats-readme/blob/main/.github/workflows/main.yml)
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
    - These other values are added as secrets by default to prevent leaking
      information about private repositories. If you're not worried about that,
      you can change the values directly [in the Actions workflow
-     itself](https://github.com/jstrieb/github-stats/blob/05de1314b870febd44d19ad2f55d5e59d83f5857/.github/workflows/main.yml#L48-L53).
+     itself](https://github.com/anishkumar127/github-stats-readme/blob/main/.github/workflows/main.yml).
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
    Workflow" on the right side of the screen to generate images for the first
@@ -141,10 +141,10 @@ instead make a generous donation to one of the following organizations. By advoc
 for Internet freedoms, organizations like these help me to feel comfortable
 releasing work publicly on the Web.
 
-- [Electronic Frontier Foundation](https://supporters.eff.org/donate/)
-- [Signal Foundation](https://signal.org/donate/)
-- [Mozilla](https://donate.mozilla.org/en-US/)
-- [The Internet Archive](https://archive.org/donate/index.php)
+- [Electronic Frontier Foundation]()
+- [Signal Foundation]()
+- [Mozilla]()
+- [The Internet Archive]()
 
 
 # Related Projects
